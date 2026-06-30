@@ -52,7 +52,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/api/auth/**", "/api/public/**", "/api/user/register", "/api/user/login", 
-                        "/h2-console/**", "/", "/index.html", "/static/**",
+                        "/h2-console/**", "/", "/index.html", "/static/**", "/css/**", "/js/**", "/img/**", "/favicon.ico",
                         "/actuator/**", "/api/idempotent/**", "/ws/**", "/api/message/**").permitAll()
                 .antMatchers("/api/admin/**").hasRole("ADMIN")
                 .antMatchers("/api/matchmaker/services", "/api/matchmaker/service/create", 
