@@ -2,5 +2,5 @@ services:
   - type: web
     name: dating-system
     env: docker
-    plan: starter
+    plan: free
     dockerfilePath: Dockerfile
