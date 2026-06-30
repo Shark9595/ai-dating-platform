@@ -1,0 +1,67 @@
+# 文档文件（不上传到GitHub）
+*.html
+PRD.md
+项目文档.md
+API_DOCUMENT.md
+*_用户故事_*
+*_用例图_*
+*_主UI设计_*
+*_类图_*
+*_数据流图_*
+*_状态图_*
+convert_to_docx.py
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Package Files
+*.zip
+*.tar.gz
+*.rar
